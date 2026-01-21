@@ -1,0 +1,10 @@
+import os
+
+SECRET_KEY = "CHANGE_ME"
+ALGORITHM = "HS256"
+
+PAYPAL_CLIENT_ID = os.getenv("PAYPAL_CLIENT_ID")
+PAYPAL_SECRET = os.getenv("PAYPAL_SECRET")
+
+BTC_WALLET = os.getenv("BTC_WALLET")
+ETH_WALLET = os.getenv("ETH_WALLET")
